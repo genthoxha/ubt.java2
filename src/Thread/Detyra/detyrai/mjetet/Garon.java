@@ -1,4 +1,4 @@
-package Thread.Detyra.detyrai;
+package Thread.Detyra.detyrai.mjetet;
 
 public interface Garon {
 
