@@ -1,5 +1,7 @@
 package Thread.Detyra.detyrai.mjetet;
 
+import Thread.Detyra.detyrai.kafshet.GaraException;
+
 import java.util.Random;
 
 public class VeturaGaruese extends MjetiGarues {

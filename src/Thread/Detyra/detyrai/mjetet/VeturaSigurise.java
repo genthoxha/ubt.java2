@@ -1,5 +1,7 @@
 package Thread.Detyra.detyrai.mjetet;
 
+import Thread.Detyra.detyrai.kafshet.GaraException;
+
 public class VeturaSigurise extends MjetiLevizes {
     private String ngjyra;
 
