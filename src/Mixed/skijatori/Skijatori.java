@@ -3,66 +3,65 @@ package Mixed.skijatori;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Skijatori implements Comparable<Skijatori> {
+public class Skijatori implements Comparable<Skijatori>{
+    private int shifra;
     private String emri;
     private String shteti;
-    private int kodi;
-    // Skijatoret mund te marrin pjese ne nje apo me shume disiplina
-    private List<Disciplina.Alpin> disciplinat;
+    private List <Disciplina.Alpin> disciplinat;
 
-    public Skijatori(String e, String sh, int k) throws FISEException {
-        if (Util.isEmpty(e)) {
-            throw new FISEException("Emri skijatorit nuk duhet te jete i zbrazet!");
+    public Skijatori(int shifra, String emri, String shteti) throws FISEException{
+        if(shifra <=0){
+            throw new FISEException("shifra duhet te jete pozitive");
         }
-        if (Util.isEmpty(sh) || sh.length() != 3) {
-            throw new FISEException("Shteti nuk duhet i zbrazet dhe duhet pembaje vetem 3 shkronja!");
+
+        if(Util.isEmpty(emri)) {
+            throw new FISEException("emri i skijatori eshte i zbrazte");
         }
-        if (k <= 0) {
-            throw new FISEException("Kodi duhet te jete numer pozitiv dhe jo zero!");
+
+        if(Util.isEmpty(shteti) && shteti.trim().length() != 3) {
+            throw new FISEException("shteti i dhene jo i sakte");
         }
-        this.emri = e;
-        this.shteti = sh;
-        this.kodi = k;
+        this.shifra = shifra;
+        this.emri = emri;
+        this.shteti = shteti;
         disciplinat = new ArrayList<>();
     }
 
-    public String getEmri() {
+    public String getEmri(){
         return emri;
     }
 
     public void shtoDisciplinen(Disciplina.Alpin disc) throws FISEException {
-        if (disc == null) {
+        if(disc == null) {
             throw new FISEException("Disciplina e dhene eshte NULL");
         }
-        if (disciplinat.contains(disc)) {
-            throw new FISEException("Disciplina e dhene egziston");
+        if(disciplinat.contains(disc)) {
+            throw new FISEException("Disciplina e dhene ekziston");
         }
         disciplinat.add(disc);
     }
 
-    public boolean iTakonDisciplines(Disciplina.Alpin disc) throws FISEException {
-        if (disciplinat.contains(disc) && disc != null) {
-            throw new FISEException("Disciplina egziston");
-        }
-        return false;
+    public boolean iTakonDisciplines(Disciplina.Alpin disc) {
+        return disc != null && disciplinat.contains(disc);
     }
 
+    @Override
     public String toString() {
-        return "(" + kodi + ") " + emri + ": " + shteti;
+        return shifra + ") " + emri + ": " + shteti;
     }
+
     @Override
     public boolean equals(Object obj){
         if(obj instanceof Skijatori) {
             final Skijatori skijatori = (Skijatori)obj;
-            return kodi == skijatori.kodi;
+            return shifra == skijatori.shifra;
         }
         return false;
     }
 
+    @Override
     public int compareTo(Skijatori o) {
-        return kodi - o.kodi;
+        return shifra - o.shifra;
     }
-
-
-
 }
+
