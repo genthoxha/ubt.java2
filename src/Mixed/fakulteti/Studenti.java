@@ -1,26 +1,34 @@
 package Mixed.fakulteti;
+public class Studenti extends Personi {
+    private String ID;
+    private Fakulteti fakulteti;
 
-public class Studenti extends Personi  {
-
-    private int id;
-
-    public Studenti(String np,String e,String mb,char gj,int id) throws FakultetiException {
-        super(np,e,mb,gj);
-        if (id <= 0) {
-            throw new FakultetiException("Id nuk duhet te jete e zbrazet");
+    public Studenti(String ID, Fakulteti fakulteti, String numriPersonal, String emri, String mbiemri, char gjinia) throws PersoniException {
+        super(numriPersonal, emri, mbiemri, gjinia);
+        if(ID == null || ID.trim().isEmpty()) {
+            throw new PersoniException("ID e studentit e zbrazet");
         }
-        this.id = id;
+
+        if(fakulteti == null) {
+            throw new PersoniException("Fakulteti i pa inicializuar");
+        }
+        this.ID = ID;
+        this.fakulteti = fakulteti;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public Fakulteti getFakulteti() {
+        return fakulteti;
     }
 
     public String kaRolin() {
         return "Student";
     }
 
-    public int getId() {
-        return id;
-    }
-
     public String toString() {
-        return super.toString() + " " + id;
+        return "Studenti " + super.toString() + " me ID " + ID;
     }
 }
