@@ -38,9 +38,9 @@ public class Main {
 //            System.out.println("\t" + jupiterMoon.getName());
 //        }
 
-        Set<HeavenlyBody> moons = new HashSet<>();
-        for (HeavenlyBody heavenlyBody : planets) {
-            moons.add(heavenlyBody.)
-        }
+//        Set<HeavenlyBody> moons = new HashSet<>();
+//        for (HeavenlyBody heavenlyBody : planets) {
+//            moons.add(heavenlyBody.)
+//        }
     }
 }
