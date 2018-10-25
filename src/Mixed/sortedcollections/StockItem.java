@@ -1,6 +1,6 @@
 package Mixed.sortedcollections;
 
-public class StockItem {
+public class StockItem implements Comparable<StockItem>{
 
     private final String name;
     private double price;
@@ -60,42 +60,22 @@ public class StockItem {
         return this.name.hashCode() + 31;
     }
 
-    public int CompareTo(StockItem stockItem) {
-        System.out.println("Entering StockItem.compareTo");
-        if (this == stockItem) {
-            return 0;
-        }
-        if (stockItem != null) {
-            return this.name.compareTo(stockItem.getName());
-        }
-        throw new NullPointerException();
-    }
+
 
     public String toString() {
         return this.name + " : price" + this.price;
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    @Override
+    public int compareTo(StockItem o) {
+        System.out.println("Entering StockItem.compareTo");
+        if (this == o) {
+            return 0;
+        }
+        if (o != null) {
+            return this.name.compareTo(o.getName());
+        }
+        throw new NullPointerException();
+    }
 }
