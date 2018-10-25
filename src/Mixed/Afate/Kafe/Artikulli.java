@@ -7,6 +7,7 @@ public abstract class Artikulli {
     private String modeli;
     private double cmimi;
     private Lloji.llojiKafes llojiKafes;
+
     public Artikulli(String modeli, double cmimi,Lloji.llojiKafes lloji) throws ArtikulliException {
         if (modeli == null || modeli.trim().equals("")) {
             throw new ArtikulliException("Modeli nuk duhet te jete null");
