@@ -1,13 +1,11 @@
 package Mixed.Afate.Kafe;
 
-import java.util.ArrayList;
 import java.util.Hashtable;
-import java.util.List;
 
 public class Kafe {
 
     private String emri;
-    private Hashtable<Artikulli,Integer> artikujt;
+    private Hashtable<Artikulli, Integer> artikujt;
 
     public Kafe(String emri) throws ArtikulliException {
         if (emri == null || emri.trim().equals("")) {
@@ -17,7 +15,7 @@ public class Kafe {
         this.artikujt = new Hashtable<>();
     }
 
-    public void shtoArtikull(Artikulli artikulli,int sasia) throws ArtikulliException {
+    public void shtoArtikull(Artikulli artikulli, int sasia) throws ArtikulliException {
         if (artikulli == null) {
             throw new ArtikulliException("shtoArtikullin: Artikulli nuk duhet te jete i zbrazet");
         }
@@ -30,7 +28,8 @@ public class Kafe {
         }
         artikujt.put(artikulli, sasia);
     }
-    public boolean blejArtikullin(Artikulli artikulli)throws ArtikulliException {
+
+    public boolean blejArtikullin(Artikulli artikulli) throws ArtikulliException {
         if (artikulli == null) {
             throw new ArtikulliException("blejArtikullin: artikulli eshte NULL");
         }
@@ -41,9 +40,36 @@ public class Kafe {
         artikujt.put(artikulli, sasiaEkzistuese - 1);
         return true;
     }
-    private boolean merrArtikullin(Artikulli artikulli)throws ArtikulliException{
+
+    private boolean merrArtikullin(Artikulli artikulli) throws ArtikulliException {
         return blejArtikullin(artikulli);
     }
-    
+
+    public Seti ndertoSetin(String modeli, Lloji.llojiKafes lloji, int nr) throws ArtikulliException {
+        Seti seti = new Seti(modeli, lloji);
+        for (int i = 0; i < nr; i++) {
+            Filxhani filxhani = new Filxhani(modeli, 100, lloji, 120);
+            Tabaku tabaku = new Tabaku(modeli, 50, lloji, 7.5);
+            Luga luga = new Luga(modeli, 25, lloji, true);
+            Integer sasiaFilxhani = artikujt.get(filxhani);
+            Integer sasiaTabaku = artikujt.get(tabaku);
+            Integer sasiaLuga = artikujt.get(luga);
+
+            if (sasiaFilxhani == null || sasiaFilxhani < nr
+                    || sasiaTabaku == null || sasiaTabaku < nr
+                    || sasiaLuga == null || sasiaLuga < nr) {
+                throw new ArtikulliException("Nuk mund te ndertohet seti");
+            }
+            merrArtikullin(filxhani);
+            merrArtikullin(tabaku);
+            merrArtikullin(luga);
+
+            Kombinimi kombinimi = new Kombinimi(filxhani, tabaku, luga);
+            seti.shtoKombinimin(kombinimi);
+            shtoArtikull(seti, 1);
+        }
+        return seti;
+    }
+
 
 }
