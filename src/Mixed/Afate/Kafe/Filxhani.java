@@ -1,27 +1,25 @@
 package Mixed.Afate.Kafe;
 
 public class Filxhani extends Artikulli {
-
     private int volumi;
-
-
-    public Filxhani(String modeli, double cmimi, Lloji.llojiKafes lloji, int volumi) throws ArtikulliException {
+    public Filxhani(String modeli, double cmimi, Lloji.llojiKafes lloji, int volumi) throws ArtikulliException{
         super(modeli, cmimi, lloji);
-        if (volumi < 1 || volumi > 250) {
-            throw new ArtikulliException("Volumi duhet te jete nga 1 deri ne 250");
+        if(volumi < 1 || volumi > 250) {
+            throw new ArtikulliException("Volumi duhet te jete ne rangun 1 .. 250 ["+volumi+"]");
         }
         this.volumi = volumi;
     }
 
     public int getVolumi() {
         return volumi;
-
     }
 
+    @Override
     public String toString() {
-        return super.toString()+ ", volumi = "+this.volumi;
+        return super.toString()+", volumi=" + volumi + '}';
     }
 
+    @Override
     public int hashCode() {
         int hash = 7;
         hash = 89 * hash + this.volumi;
@@ -36,4 +34,6 @@ public class Filxhani extends Artikulli {
         }
         return false;
     }
+
 }
+
