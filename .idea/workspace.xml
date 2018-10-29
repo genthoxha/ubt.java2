@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d5691f7-2431-4c38-af6f-f4e327218069" name="Default" comment="&quot;sets&quot;">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JUnitTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Artikulli.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Kafe/ArtikulliException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Filxhani.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Lloji.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mixed/sortedcollections/Basket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Lokali/Artikulli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Lokali/EventException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Lokali/Lokali.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Lokali/Ushqimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Lokali/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mixed/Afate/Lokali/testClassForLoakali.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mixed/sortedcollections/StockItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mixed/sortedcollections/StockItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ubt.java2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ubt.java2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Luga.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Luga.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,43 +27,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Artikulli.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Artikulli.java">
+      <file leaf-file-name="Lokali.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/Lokali.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+            <state relative-caret-position="861">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Artikulli.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/Artikulli.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#784#785#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#648#649#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#778#779#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#1199#1200#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Filxhani.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Filxhani.java">
+      <file leaf-file-name="Ushqimi.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/Ushqimi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state relative-caret-position="273">
+              <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <folding>
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lloji.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Lloji.java">
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/Util.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            <state relative-caret-position="168">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EventException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/EventException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,14 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Thread/Detyra/detyrai/VeturaGaruese.java" />
-        <option value="$PROJECT_DIR$/src/Mixed/skijatori/FISEException.java" />
-        <option value="$PROJECT_DIR$/src/Mixed/skijatori/Util.java" />
-        <option value="$PROJECT_DIR$/src/Mixed/skijatori/SkijimiAlpin.java" />
-        <option value="$PROJECT_DIR$/src/Mixed/enumtest/Level.java" />
-        <option value="$PROJECT_DIR$/src/Mixed/enumtest/EnumExamples.java" />
-        <option value="$PROJECT_DIR$/src/Thread/Detyra/detyrai/mjetet/GaraException.java" />
-        <option value="$PROJECT_DIR$/src/Thread/Detyra/detyrai/mjetet/VeturaGaruese.java" />
         <option value="$PROJECT_DIR$/src/Thread/Detyra/detyrai/mjetet/VeturaSigurise.java" />
         <option value="$PROJECT_DIR$/src/Mixed/skijatori/DisciplinaEnum.java" />
         <option value="$PROJECT_DIR$/src/Mixed/skijatori/Disciplina.java" />
@@ -173,6 +178,14 @@
         <option value="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Lloji.java" />
         <option value="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Artikulli.java" />
         <option value="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Filxhani.java" />
+        <option value="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Tabaku.java" />
+        <option value="$PROJECT_DIR$/src/Mixed/Afate/Kafe/Luga.java" />
+        <option value="$PROJECT_DIR$/src/Mixed/Afate/Lokali/EventException.java" />
+        <option value="$PROJECT_DIR$/src/Mixed/Afate/Lokali/Util.java" />
+        <option value="$PROJECT_DIR$/src/Mixed/Afate/Lokali/Lokali.java" />
+        <option value="$PROJECT_DIR$/src/Mixed/Afate/Lokali/testClassForLoakali.java" />
+        <option value="$PROJECT_DIR$/src/Mixed/Afate/Lokali/Artikulli.java" />
+        <option value="$PROJECT_DIR$/src/Mixed/Afate/Lokali/Ushqimi.java" />
       </list>
     </option>
   </component>
@@ -186,10 +199,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="423" />
-    <option name="y" value="29" />
-    <option name="width" value="974" />
-    <option name="height" value="1066" />
+    <option name="x" value="420" />
+    <option name="y" value="26" />
+    <option name="width" value="975" />
+    <option name="height" value="1069" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -199,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -225,7 +237,15 @@
               <item name="ubt.java2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Mixed" type="462c0819:PsiDirectoryNode" />
-              <item name="Kafe" type="462c0819:PsiDirectoryNode" />
+              <item name="Afate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ubt.java2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ubt.java2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Mixed" type="462c0819:PsiDirectoryNode" />
+              <item name="Afate" type="462c0819:PsiDirectoryNode" />
+              <item name="Lokali" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ubt.java2" type="b2602c69:ProjectViewProjectNode" />
@@ -235,6 +255,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,61 +292,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JUnitTesting.doSomethign">
-    <configuration name="DogMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mixed.setshashsets.DogMain" />
-      <module name="ubt.java2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mixed.setshashsets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Email" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mixed.pajisja.Email" />
-      <module name="ubt.java2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mixed.pajisja.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PajisjaKomunikuese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mixed.pajisja.PajisjaKomunikuese" />
-      <module name="ubt.java2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mixed.pajisja.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Mixed.setshashsets.SetMain" />
-      <module name="ubt.java2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Mixed.setshashsets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="JUnit.testClassForLoakali">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="JUnitTesting.doSomethign" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Lokali" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ubt.java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mixed.Afate.Lokali.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JUnitTesting" />
-      <option name="METHOD_NAME" value="doSomethign" />
+      <option name="PACKAGE_NAME" value="Mixed.Afate.Lokali" />
+      <option name="MAIN_CLASS_NAME" value="Mixed.Afate.Lokali.Lokali" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Lokali.sus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ubt.java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mixed.Afate.Lokali.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Mixed.Afate.Lokali" />
+      <option name="MAIN_CLASS_NAME" value="Mixed.Afate.Lokali.Lokali" />
+      <option name="METHOD_NAME" value="sus" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Luga.testo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ubt.java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mixed.Afate.Kafe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Mixed.Afate.Kafe" />
+      <option name="MAIN_CLASS_NAME" value="Mixed.Afate.Kafe.Luga" />
+      <option name="METHOD_NAME" value="testo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -343,6 +372,52 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testClassForLoakali" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ubt.java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mixed.Afate.Lokali.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Mixed.Afate.Lokali" />
+      <option name="MAIN_CLASS_NAME" value="Mixed.Afate.Lokali.testClassForLoakali" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="testClassForLoakali.testSmth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ubt.java2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Mixed.Afate.Lokali.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Mixed.Afate.Lokali" />
+      <option name="MAIN_CLASS_NAME" value="Mixed.Afate.Lokali.testClassForLoakali" />
+      <option name="METHOD_NAME" value="testSmth" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -375,19 +450,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Email" />
-      <item itemvalue="Application.PajisjaKomunikuese" />
-      <item itemvalue="Application.DogMain" />
-      <item itemvalue="Application.SetMain" />
-      <item itemvalue="JUnit.JUnitTesting.doSomethign" />
+      <item itemvalue="JUnit.Luga.testo" />
+      <item itemvalue="JUnit.Lokali.sus" />
+      <item itemvalue="JUnit.Lokali" />
+      <item itemvalue="JUnit.testClassForLoakali.testSmth" />
+      <item itemvalue="JUnit.testClassForLoakali" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JUnitTesting.doSomethign" />
-        <item itemvalue="Application.SetMain" />
-        <item itemvalue="Application.DogMain" />
-        <item itemvalue="Application.PajisjaKomunikuese" />
-        <item itemvalue="Application.Email" />
+        <item itemvalue="JUnit.testClassForLoakali" />
+        <item itemvalue="JUnit.testClassForLoakali.testSmth" />
+        <item itemvalue="JUnit.Lokali.sus" />
+        <item itemvalue="JUnit.Lokali" />
+        <item itemvalue="JUnit.Luga.testo" />
       </list>
     </recent_temporary>
   </component>
@@ -417,6 +492,9 @@
       <workItem from="1540361801067" duration="5340000" />
       <workItem from="1540450247450" duration="7061000" />
       <workItem from="1540473451074" duration="1994000" />
+      <workItem from="1540499013326" duration="5422000" />
+      <workItem from="1540591570093" duration="5142000" />
+      <workItem from="1540641090540" duration="2651000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Thread mjeti garues&quot;">
       <created>1539097482706</created>
@@ -467,28 +545,50 @@
       <option name="project" value="LOCAL" />
       <updated>1540394414011</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="&quot;Kafe&quot;">
+      <created>1540507216662</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1540507216662</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JUnitTesting_doSomethign - 2018.10.25 at 15h 15m 29s.xml">
-      <configuration name="JUnitTesting.doSomethign" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JUnitTesting_doSomethign - 2018.10.25 at 15h 15m 55s.xml">
-      <configuration name="JUnitTesting.doSomethign" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JUnitTesting_doSomethign - 2018.10.25 at 15h 16m 17s.xml">
-      <configuration name="JUnitTesting.doSomethign" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JUnitTesting_doSomethign - 2018.10.25 at 15h 16m 49s.xml">
       <configuration name="JUnitTesting.doSomethign" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JUnitTesting_doSomethign - 2018.10.25 at 15h 17m 03s.xml">
       <configuration name="JUnitTesting.doSomethign" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Luga_testo - 2018.10.26 at 00h 37m 23s.xml">
+      <configuration name="Luga.testo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lokali_sus - 2018.10.27 at 01h 03m 40s.xml">
+      <configuration name="Lokali.sus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lokali_sus - 2018.10.27 at 01h 04m 25s.xml">
+      <configuration name="Lokali.sus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lokali - 2018.10.27 at 01h 28m 03s.xml">
+      <configuration name="Lokali" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Lokali_sus - 2018.10.27 at 01h 28m 21s.xml">
+      <configuration name="Lokali.sus" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testClassForLoakali_testSmth - 2018.10.27 at 01h 29m 55s.xml">
+      <configuration name="testClassForLoakali.testSmth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testClassForLoakali - 2018.10.27 at 01h 30m 22s.xml">
+      <configuration name="testClassForLoakali" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testClassForLoakali - 2018.10.27 at 01h 31m 00s.xml">
+      <configuration name="testClassForLoakali" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99638000" />
+    <option name="totallyTimeSpent" value="112853000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,7 +600,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -511,12 +611,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299075" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32887974" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.3287879" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287879" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846625" visible="true" weight="0.16276596" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846625" visible="true" weight="0.16912752" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -524,41 +624,41 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" sideWeight="0.50153375" side_tool="true" weight="0.13085106" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979446" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299075" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3299075" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299075" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299075" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846625" visible="true" weight="0.13085106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299075" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3299075" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39979446" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3299075" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.50153375" side_tool="true" weight="0.13085106" />
@@ -575,84 +675,15 @@
     <MESSAGE value="&quot;Skijatori update&quot;" />
     <MESSAGE value="&quot;Up to date&quot;" />
     <MESSAGE value="&quot;sets&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;sets&quot;" />
+    <MESSAGE value="&quot;Kafe&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Kafe&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/Automjeti/AutomjetiException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/Libri/Biblioteka.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="134" column="32" lean-forward="true" selection-start-line="134" selection-start-column="32" selection-end-line="134" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/Automjeti/Autosalloni.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/Libri/Libraria.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/Automjeti/Automjeti.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/Automjeti/Autotregu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/PersoniKomunikimi/Komunikimi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/PersoniKomunikimi/Personi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/hoteli/SkiException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Mixed/hoteli/Servisi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -836,16 +867,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/ArtikulliException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#122#123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Mixed/pajisja/Komunikimi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -919,38 +940,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/ushtrimeshtese/Java2/UshtrimeDakaj/Ushtrime2_Dakaj/Banka.java" />
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Filxhani.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Tabaku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/org/junit/internal/builders/JUnit4Builder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Luga.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Lloji.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/ArtikulliException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Artikulli.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+        <state relative-caret-position="-517">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/testClassForLoakali.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/Lokali.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/EventException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Kafe/Filxhani.java">
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/Artikulli.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state relative-caret-position="483">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Mixed/Afate/Lokali/Ushqimi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,7 +1,5 @@
 package Mixed.Afate.Kafe;
 
-import org.junit.Test;
-
 public class Luga extends Artikulli {
 
     private boolean eshteMetalik;
